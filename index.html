@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="heading">Student Management CRUD</h1>
+
+<section>
+    <form method="post" action="/Script.js" name="form" id="studentForm">
+        <div class="form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" required pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" placeholder="Email">
+            <input type="text" id="grade" required placeholder="GPA">
+            <input type="number" id="age" required placeholder="Age">
+            <input type="text" id="degree" required placeholder="Degree">
+        </div>
+        <div class="btn">
+            <button type="submit" id="submitButton">Add Student</button>
+        </div>
+    </form>
+</section>
+
+<section class="container"> 
+
+    <div class="searchbar">
+        <input type="text" id="searchInput" placeholder="Search By Name, email or degree">
+    </div>
+    
+    <div class="table">
+        <table id="studentsTable">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Student Name</td>
+                    <td>Email</td>
+                    <td>Age</td>
+                    <td>Gpa</td>
+                    <td>Degree</td>
+               </tr> 
+            </thead>
+            <tbody id="studentsList">
+            </tbody>  
+        </table>
+    </div>
+</section>
+
+<script src="/script.js"></script>
+    
+</body>
+</html>

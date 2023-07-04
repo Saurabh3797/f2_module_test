@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Ruda&display=swap');
+
+
+html{
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Ruda', sans-serif; */
+}
+
+body{
+    padding: 20px;
+}
+
+*{
+    background-color: black;
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 25px;
+    bottom: 25px;
+    
+    
+}
+
+form input:focus{
+    border: 2px solid #FFFFFF;
+}
+
+.form input{
+    width: 370px;
+    height: 35px;
+    padding-left: 30px;
+    outline: none; 
+    border: 0.2px solid #FFFFFF;
+}
+
+.btn button{
+    margin-top: 15px;
+    width: 500px;
+    height: 45px;
+    outline: none;
+    color: black;
+    background-color: #FFFFFF;
+}
+
+
+.searchbar > input{
+    margin-top: 40px;
+    width: 90%;
+    height: 35px;
+    padding-left: 30px;
+
+}
+
+
+table, thead{
+    width: 93%;
+    border: 0.2px solid white;
+}
+
+thead td{
+   border: 1px solid;
+}
+
+tbody td{
+    border-left: 1px solid ;
+}
+
+tbody  tr{
+    height: 80px;
+
+}
+
+table, tr, td, th{
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.searchbar > input{
+    /* margin-top: 65px; */
+    width: 90%;
+    height: 35px;
+    padding-left: 30px;
+    border: 0.2px solid #FFFFFF;
+}
+.container{
+    margin-top: 60px;
+}
+
+
+.table{
+    color: white;
+    margin-top: 55px;
+   
+}
+
+.table1{
+    display: flex;
+    justify-content: center;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
