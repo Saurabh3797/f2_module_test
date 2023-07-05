@@ -27,10 +27,10 @@ function renderStudents(){
          <div class="logos">${student.degree}</div>
           <div class="logo">
          <button class="edit-btn" data-id="${student.ID}">
-         <img src="./edit .png" alt="img1">
+         <img src="/edit .png" alt="img1">
          </button>
          <button class="delete-btn" data-id="${student.ID}">
-         <img src="./delete.png" alt="img2">
+         <img src="/delete.png" alt="img2">
          </button>
          </div>
          </div>
@@ -151,10 +151,10 @@ function handleSubmit(event) {
          <div class="logos">${student.degree}</div>
           <div class="logo">
          <button class="edit-btn" data-id="${student.ID}">
-         <img src="./edit .png" alt="img1">
+         <img src="/edit .png" alt="img1">
          </button>
          <button class="delete-btn" data-id="${student.ID}">
-         <img src="./delete.png" alt="img2">
+         <img src="/delete.png" alt="img2">
          </button>
           </div>
          </div>
